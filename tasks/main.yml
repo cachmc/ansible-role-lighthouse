@@ -1,0 +1,13 @@
+---
+# tasks file for lighthouse
+- include_tasks: 
+    file: install.yml
+    apply:
+      tags: lighthouse
+  tags: lighthouse
+
+#- include_tasks:
+#    file: nginx.yml
+#    apply:
+#      tags: lighthouse
+#  tags: lighthouse
